@@ -30,6 +30,10 @@ app.use('/transaction', transactionRoutes)
 
 
 
+app.get('/', (req, res) => {
+  res.send('API is running...')
+})
+
 /* MONGOOSE SETUP */
 
 const PORT = process.env.PORT || 9000
