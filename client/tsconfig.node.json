@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",  // This is necessary for the paths to work correctly
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]  // Corrected paths to match your project structure
     },
     "target": "ESNext",
     "useDefineForClassFields": true,

@@ -82,7 +82,7 @@ export const tokens = {
       h3: {
         fontFamily: ["Inter", "sans-serif"].join(","),
         fontSize: 20,
-        fontWeight: 800,
+        fontWeight: 800, 
         color: tokens.grey[200],
       },
       h4: {
